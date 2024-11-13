@@ -10,7 +10,7 @@ Given an integer array `nums` and an integer `val`, remove all occurrences of `v
 - Use two pointers:
   - `i` to traverse each element in `nums`.
   - `j` to track the position of elements not equal to `val`.
-- For each element, if `nums[i]` is not equal to `val`, place it at `nums[j]` and increment `j`.
+- For each element, if `nums[i]` is not equal to `vasl`, place it at `nums[j]` and increment `j`.
 - Return `j` as the new length of the modified array.
 
 ## Complexity
